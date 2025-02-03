@@ -2,16 +2,16 @@
     display: none;
   }
 body {
-    border: 10px solid #be3144;
-    display: flex;
     color: #e17564;
     margin: 0;
-    background-image: url("tupa.jpg");
-    background-position: center;
-    background-repeat: space;
+    background-image: url(tupa.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    /* border: #be3144 solid 10px; */
 }
 .link {
-    padding-top: 7vh;
+    padding-top: 2vh;
     background-color: #2c091c;
     width: 15vw;
     display: flex;
@@ -32,35 +32,45 @@ body {
     padding: 3vh; 
     background-color: #09122c; 
     color: #ffffff; 
-    position: absolute; 
+    position: fixed; 
     border: none;
     font-size: 100%;
     border-radius: 20px;
     z-index: 9999;
+    top: 0;
 }
 .three_lines:hover {
     background-color: #05133b; /* Change background color when hovered */
 }
-.line{
-    display: none;
-    background-color: #be3144;
-    width: 10px;
-}
 .sidebar{
     display: flex;
-    position: absolute;
+    position: fixed;
     transition: left 1.25s ease-in-out; /* 使用 transition 来平滑过渡 */
-    left: -16vw;
+    left: -16.5vw;
     top: 5rem;
 }
-h1{
+
+.first{
+    width: 60vw;
+    height: auto;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
     text-align: center;
-    width: 100vw;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+h1{
     font-size: 5vw;
 }
 h2{
     margin: auto;
-    text-align: center;
     width: 60vw;
     font-size: 3vw;
+}
+.h{
+    height: 100vh;
+}
+#first{
+    display: flex;
 }
