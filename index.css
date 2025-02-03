@@ -4,10 +4,6 @@
 body {
     color: #e17564;
     margin: 0;
-    background-image: url(tupa.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
     /* border: #be3144 solid 10px; */
 }
 .link {
@@ -50,15 +46,19 @@ body {
     top: 5rem;
 }
 
+
+
+
+
+
+
 .first{
     width: 60vw;
     height: auto;
     backdrop-filter: blur(10px);
     border-radius: 1rem;
     text-align: center;
-    margin: auto;
-    margin-top: 15vh;
-    margin-bottom: 10vh;
+
 }
 h1{
     font-size: 5vw;
@@ -71,6 +71,31 @@ h2{
 .h{
     height: 100vh;
 }
-#first{
-    display: flex;
+#front{
+    background-image: url(tupa.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    align-items: center;
+    justify-content: center
+}
+.title{
+    margin: 0;
+}
+.first{
+    margin: auto;
+    
+}
+.none{
+    margin: 0;
+    height: 15vh;
+    width: 100vw;
+}
+
+
+
+
+.page{
+    background-color: #09122c;
+    border: #be3144 solid 10px;
 }
