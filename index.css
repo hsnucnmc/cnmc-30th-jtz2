@@ -505,7 +505,8 @@ nav ul li a.active {
 }
 
 .cll{
-    margin-left: 5vw;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -514,3 +515,86 @@ nav ul li a.active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .list{
+        display: none;
+    }
+    .sidebar{
+    --background: #87ceeb;
+    --border: #2388b0;
+    --word: #00274D;
+    display: flex;
+    position: fixed;
+    transition: left 1.25s ease-in-out;
+    top: 0;
+    z-index: 1001;
+    height: 100%;
+    left: 0px;}
+    #intro{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    #history{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .flex{display: block;}
+    .introd{
+        height: auto;
+    }
+    .m{
+        height: auto;
+    }
+    .g{
+        height: auto;
+        width: 90%;
+    }
+    .page{
+        padding: 0vw;
+    }
+    .cnmcimg{
+        width: 20vw;
+        height: auto;
+    }
+    .first{
+        width: 90vw;
+    }
+    .first h1{
+        font-size: 15vw;
+    }
+    .first h2{
+        font-size: 5vw;
+    }
+    .shhe{
+        height: 60vw;
+        width: auto;
+        margin: auto;
+    }
+    .his{
+        height: 90vw;
+        width: auto;
+        margin-right: 0%;
+        margin-left: auto;
+    }
+    .history h2{
+        padding-bottom: 0;
+    }
+    .line{
+        margin-bottom: 0%;
+    }
+  }
