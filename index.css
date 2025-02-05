@@ -11,28 +11,29 @@ body {
     /* border: #be3144 solid 10px; */
 }
 .link {
-    padding-top: 2vh;
-    margin-top: 3rem;
-    background-color: var(--background);
-    width: 15vw;
+    padding-top: 8vh;
+    background-color: var(--word);
+    width: 18vw;
     display: flex;
     flex-direction: column;
     font-size: xx-large;
     padding-bottom: 5rem;
-    border: 0.5rem var(--border) solid;
+    border: 0rem var(--border) solid;
     border-left:0px;
-    border-radius: 1rem;
+    /* border-radius: 1rem;
     border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px; */
     z-index: 9997;
 }
 
 .link a {
-    color: var(--word);
+    color: aliceblue;
     text-decoration: none;
     border-bottom: 1px solid #555;
     padding-top: 0.5rem;
-    padding-left: 1rem;
+    
+    padding-right: 2vw;
+    padding-left: 1vw;
     /* padding-bottom: 0.5rem; */
     background-color: transparent;
     z-index: 9998;
@@ -62,8 +63,10 @@ body {
     display: flex;
     position: fixed;
     transition: left 1.25s ease-in-out; /* 使用 transition 来平滑过渡 */
-    left: -16.5vw;
-    top: 5rem;
+    left: -18vw;
+    top:0;
+    z-index: 1001;
+    height:100%;
 }
 
 
@@ -270,6 +273,11 @@ div.arrow {
 .right{
     margin-right: auto;
 }
+.menuclick{
+    
+    z-index: 9999;
+    padding: 0.75rem 1rem;
+}
 nav {
     color:aliceblue;
     background-color: #00274D;
@@ -277,6 +285,9 @@ nav {
     position: sticky;
     top:0;
     z-index: 1000;
+    display: flex;
+    flex-wrap: nowrap;
+    max-height: 8vh;
 }
 nav ul{
     margin: auto;
