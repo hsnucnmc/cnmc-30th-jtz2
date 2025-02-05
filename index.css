@@ -306,8 +306,51 @@ nav ul li a.active {
 }
 
 
+.introd{
+    --background: #87ceeb;
+    --border: #2388b0;
+    --word: #00274D;
+    text-align: left;
+    font-size: 3vh;
+    margin: 0;
+    padding-bottom: 1vh;
+    color: var(--word);
+    transition: opacity 0.3s ease;
+    font-weight: 600;
+}
+
+.clti{
+    color: var(--word);
+}
+
+#class{
+    display: flex;
+}
+
+.g{
+    width: 20vw;
+    height: 60vh;
+    border-radius: 10%;
+    background-color: #A7E6FF;
+    margin: auto;
+    text-align: center;
+}
+
+.claint{
+    color: var(--word);
+    font-weight: 600;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
 
 
+#intro{
+    display: flex;
+}
+.shhe{
+    height: 50vh;
+    margin-left: auto;
+}
 
 
 
