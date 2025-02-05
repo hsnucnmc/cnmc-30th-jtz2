@@ -477,7 +477,7 @@ nav ul li a.active {
 
 .g{
     width: 20vw;
-    height: 60vh;
+    /* height: ; */
     border-radius: 10%;
     background-color: #A7E6FF;
     margin: auto;
