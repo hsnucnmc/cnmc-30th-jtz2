@@ -374,10 +374,10 @@ nav ul li a.active {
 /* from https://codehim.com/html5-css3/html-css-image-comparison-slider/ */
 .c-compare {
     --h: 9;
-    --m: 1rem 0;
+    --m: 0.2rem 0;
     --w: 16;
-    --thumb-bgc: red;
-    --thumb-bgc-focus: hsla(0, 70%, 70%, 0.7);
+    --thumb-bgc: var(--border);
+    --thumb-bgc-focus: transparent;
     --thumb-w: 1rem;
     max-width: 60vw;
     border-radius: 1rem;
@@ -405,12 +405,13 @@ nav ul li a.active {
   }
   .c-compare__range {
     background-color: transparent;
-    box-sizing: border-box;
+    box-sizing: block;
     font-family: inherit;
     height: 100%;
     margin: 0;
     outline: none;
     position: absolute;
+    border: 0px transparent none;
     top: 0;
     width: 100%;
   }
@@ -510,24 +511,6 @@ nav ul li a.active {
     margin: auto;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 600px) {
     body {
