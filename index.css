@@ -223,19 +223,20 @@ div.arrow {
     border: #555 solid 10px;
 }
 
-.history h2{
+.history p{
     text-align: left;
     font-size: 3vh;
     margin: 0;
     padding-bottom: 1vh;
     color: var(--word);
     transition: opacity 0.3s ease;
+    font-weight: 700;
 }
-.history h2.dimmed {
+.history p.dimmed {
     opacity: 0.3;  /* 讓其他文字變暗 */
 }
 
-.history h2:hover {
+.history p:hover {
     opacity: 1;  /* 鼠標懸停的文字保持不變 */
 }
 

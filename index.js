@@ -9,20 +9,20 @@ function toggleSidebar() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const h2Elements = document.querySelectorAll('.history h2');
+    const pElements = document.querySelectorAll('.history p');
 
-    h2Elements.forEach((h2) => {
-        h2.addEventListener('mouseenter', () => {
-            h2Elements.forEach((otherH2) => {
-                if (otherH2 !== h2) {
-                    otherH2.classList.add('dimmed'); // 其他元素變暗
+    pElements.forEach((p) => {
+        p.addEventListener('mouseenter', () => {
+            pElements.forEach((otherp) => {
+                if (otherp !== p) {
+                    otherp.classList.add('dimmed'); // 其他元素變暗
                 }
             });
         });
 
         h2.addEventListener('mouseleave', () => {
-            h2Elements.forEach((otherH2) => {
-                otherH2.classList.remove('dimmed'); // 恢復正常
+            pElements.forEach((otherp) => {
+                otherp.classList.remove('dimmed'); // 恢復正常
             });
         });
     });
