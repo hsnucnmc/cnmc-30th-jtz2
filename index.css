@@ -418,9 +418,6 @@ nav ul li a.active {
     color: var(--word);
 }
 
-#class{
-    display: flex;
-}
 
 .g{
     width: 20vw;
@@ -448,7 +445,14 @@ nav ul li a.active {
 }
 
 
+.m{
+    height: 100%;
+    width: 100%;
+}
 
+.cll{
+    margin-left: 5vw;
+}
 
 
 
