@@ -451,7 +451,8 @@ nav ul li a.active {
 }
 
 .cll{
-    margin-left: 5vw;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -460,3 +461,47 @@ nav ul li a.active {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .list{
+        display: none;
+    }
+    .sidebar{
+    --background: #87ceeb;
+    --border: #2388b0;
+    --word: #00274D;
+    display: flex;
+    position: fixed;
+    transition: left 1.25s ease-in-out;
+    top: 0;
+    z-index: 1001;
+    height: 100%;
+    left: 0px;}
+    #intro{
+        display: block;
+    }
+    .flex{display: block;}
+    .introd{
+        height: auto;
+    }
+    .m{
+        height: auto;
+    }
+    .g{
+        height: auto;
+    }
+  }
