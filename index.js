@@ -9,23 +9,23 @@ function toggleSidebar() {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    const pElements = document.querySelectorAll('.history p');
+    // const pElements = document.querySelectorAll('.history p');
 
-    pElements.forEach((p) => {
-        p.addEventListener('mouseenter', () => {
-            pElements.forEach((otherp) => {
-                if (otherp !== p) {
-                    otherp.classList.add('dimmed'); // 其他元素變暗
-                }
-            });
-        });
+    // pElements.forEach((p) => {
+    //     p.addEventListener('mouseenter', () => {
+    //         pElements.forEach((otherp) => {
+    //             if (otherp !== p) {
+    //                 otherp.classList.add('dimmed'); // 其他元素變暗
+    //             }
+    //         });
+    //     });
 
-        h2.addEventListener('mouseleave', () => {
-            pElements.forEach((otherp) => {
-                otherp.classList.remove('dimmed'); // 恢復正常
-            });
-        });
-    });
+    //     h2.addEventListener('mouseleave', () => {
+    //         pElements.forEach((otherp) => {
+    //             otherp.classList.remove('dimmed'); // 恢復正常
+    //         });
+    //     });
+    // });
     const sidebar = document.getElementById('sidebar');
     // Function to close the menu if clicked outside
     document.addEventListener("click", (e) => {

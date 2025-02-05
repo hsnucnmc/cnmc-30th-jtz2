@@ -271,7 +271,8 @@ div.arrow {
 }
 
 .history{
-    margin-left: auto;
+    margin-left: 5vw;
+
 }
 
 .flex{
@@ -592,7 +593,7 @@ nav ul li a.active {
         margin-right: 0%;
         margin-left: auto;
     }
-    .history h2{
+    .history p{
         padding-bottom: 0;
     }
     .line{
