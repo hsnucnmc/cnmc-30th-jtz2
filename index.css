@@ -516,7 +516,12 @@ nav ul li a.active {
     height: 100%;
     left: 0px;}
     #intro{
-        display: block;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    #history{
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .flex{display: block;}
     .introd{
@@ -527,5 +532,39 @@ nav ul li a.active {
     }
     .g{
         height: auto;
+        width: 90%;
+    }
+    .page{
+        padding: 0vw;
+    }
+    .cnmcimg{
+        width: 20vw;
+        height: auto;
+    }
+    .first{
+        width: 90vw;
+    }
+    .first h1{
+        font-size: 15vw;
+    }
+    .first h2{
+        font-size: 5vw;
+    }
+    .shhe{
+        height: 60vw;
+        width: auto;
+        margin: auto;
+    }
+    .his{
+        height: 90vw;
+        width: auto;
+        margin-right: 0%;
+        margin-left: auto;
+    }
+    .history h2{
+        padding-bottom: 0;
+    }
+    .line{
+        margin-bottom: 0%;
     }
   }
