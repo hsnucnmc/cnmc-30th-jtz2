@@ -15,12 +15,11 @@ body{
     padding-top: 5vh;
     padding-bottom: 5vh;
     margin-right: 20vh;
-    transition: opacity 0.3s ease;
 }
-.word p.dimmed {
-    opacity: 0.3;  /* 讓其他文字變暗 */
+.word p{
+    transition: color 0.7s ease, text-shadow 1.2s ease-in;
 }
-
 .word p:hover {
-    opacity: 1;  /* 鼠標懸停的文字保持不變 */
+    color: yellow;
+    text-shadow: 0.1em 0.1em 0.2em yellow;
 }
