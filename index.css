@@ -261,10 +261,14 @@ div.arrow {
 }
 
 .leim{
-    border-radius: 10%;
     height: 70vh;
     width: auto;
+}
+.left{
     margin-left: auto;
+}
+.right{
+    margin-right: auto;
 }
 nav {
     color:aliceblue;
