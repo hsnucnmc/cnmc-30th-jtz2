@@ -6,14 +6,7 @@ function toggleSidebar() {
         sidebar.style.left = '-18vw';//隱藏
     }
 }
-const sidebar = document.getElementById('.sidebar');
-// Function to close the menu if clicked outside
-document.addEventListener("click", (e) => {
-    // Check if the clicked element is not the menu or button
-    if (!sidebar.contains(e.target)) {
-        sidebar.style.left = '-18vw';
-    }
-});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const h2Elements = document.querySelectorAll('.history h2');
@@ -32,6 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 otherH2.classList.remove('dimmed'); // 恢復正常
             });
         });
+    });
+    const sidebar = document.getElementById('sidebar');
+    // Function to close the menu if clicked outside
+    document.addEventListener("click", (e) => {
+        // Check if the clicked element is not the menu or button
+        if (!sidebar.contains(e.target) && e.target !== document.getElementById("menuBtn")) {
+            sidebar.style.left = '-18vw';
+        }
     });
 });
 document.addEventListener("DOMContentLoaded", function () {
