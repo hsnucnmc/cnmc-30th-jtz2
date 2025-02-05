@@ -511,7 +511,17 @@ nav ul li a.active {
     text-align: center;
 }
 
-
+.sky{
+    width: 30vw;
+    border-radius: 5vw;
+  }
+  .goalll{
+    font-weight: 700;
+    color: var(--word);
+    font-size: 2vw;
+    margin-left: 15vw;
+    width: 60vw;
+  }
 
 
 
@@ -599,4 +609,13 @@ nav ul li a.active {
     .line{
         margin-bottom: 0%;
     }
+    .sky{
+        width: 60vw;
+      }
+      .goalll{
+        font-size: 3vh;
+        margin: 0;
+        width: 90vw;
+      }
   }
+
